@@ -24,7 +24,6 @@ public class Dna {
                 while (fileScanner.hasNextLine()){
                     String fita = fileScanner.nextLine();
                     String novaFita = "";
-                    System.out.println(qtdFita);
                     
                     for(int i=0;i<fita.length();i++){
                         char nucleotideo = fita.charAt(i);
